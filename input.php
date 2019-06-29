@@ -1,0 +1,24 @@
+function getProfile() {
+  return {
+    name: 'Riyen anggryani siahaan',
+    age : 24,
+    toString()
+    address: 'Jl. Pernamta no 27 Jakarta timur',
+    hobbies: ['Singing', 'Music'] //Array,
+    is_married: false //Boolean,
+    school: {
+      university: 'STT PLN',
+      year_in : 2014
+      year_out : 2018
+      Major: 'Teknik informatika'
+    }, // Object
+    skills: [{
+      name: 'Database administrator',
+      level : junior
+    },{
+      name: 'Mobile Dev',
+      years_of_experience: 2
+    }] // Array Of Object
+    Interest_in_coding : true //Boolean
+  }
+}
